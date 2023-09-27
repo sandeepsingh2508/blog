@@ -11,6 +11,7 @@ app.use(cookieParser());
 app.get("/",(req,res)=>{
     res.send("API is Working")
 })
+console.log("++++++++++++++++++++++")
 
 app.use("/user", userRoute);
 app.use("/blogpost", blogPostRoute);
